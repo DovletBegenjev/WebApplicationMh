@@ -13,101 +13,155 @@
         <link rel="stylesheet" href="~/css/style.css"/>
     </head>
     <body>
-    <h2>Data Entry Form</h2>
-    <form method="post">
+        <h2>Data Entry Form</h2>
+        <form method="post" class="form-container">
+            <div class="grid-container">
+                <div class="form-group">
+                    <label for="ID">ID:</label>
+                    <input type="text" id="ID" name="ID" required><br><br>
+                </div>
 
-        <label for="ID">ID:</label>
-        <input type="text" id="ID" name="ID" required><br><br>
+                <div class="form-group">
+                    <label for="prod_area_id">prod_area_id:</label>
+                    <input type="text" id="prod_area_id" name="prod_area_id" required><br><br>
+                </div>
 
-        <label for="prod_area_id">prod_area_id:</label>
-        <input type="text" id="prod_area_id" name="prod_area_id" required><br><br>
+                <div class="form-group">
+                    <label for="Date">Date:</label>
+                    <input type="date" id="Date" name="Date" required><br><br>
+                </div>
 
-        <label for="Date">Date:</label>
-        <input type="date" id="Date" name="Date" required><br><br>
+                <div class="form-group">
+                    <label for="DayInMonth">DayInMonth:</label>
+                    <input type="number" id="DayInMonth" name="DayInMonth" min="1" max="31" required><br><br>
+                </div>
 
-        <label for="DayInMonth">DayInMonth:</label>
-        <input type="number" id="DayInMonth" name="DayInMonth" min="1" max="31" required><br><br>
+                <div class="form-group">
+                    <label for="SPPFluid">SPPFluid:</label>
+                    <input type="number" step="any" id="SPPFluid" name="SPPFluid" required><br><br>
+                </div>
 
-        <label for="SPPFluid">SPPFluid:</label>
-        <input type="number" step="any" id="SPPFluid" name="SPPFluid" required><br><br>
+                <div class="form-group">
+                    <label for="SPPOil">SPPOil(MT/d):</label>
+                    <input type="number" step="any" id="SPPOil" name="SPPOil" required><br><br>
+                </div>
 
-        <label for="SPPOil">SPPOil(MT/d):</label>
-        <input type="number" step="any" id="SPPOil" name="SPPOil" required><br><br>
+                <div class="form-group">
+                    <label for="CorrFact">CorrFact:</label>
+                    <input type="number" step="any" id="CorrFact" name="CorrFact" required><br><br>
+                </div>
 
-        <label for="CorrFact">CorrFact:</label>
-        <input type="number" step="any" id="CorrFact" name="CorrFact" required><br><br>
+                <div class="form-group">
+                    <label for="AvgBSW">AvgBSW:</label>
+                    <input type="number" step="any" id="AvgBSW" name="AvgBSW" required><br><br>
+                </div>
 
-        <label for="AvgBSW">AvgBSW:</label>
-        <input type="number" step="any" id="AvgBSW" name="AvgBSW" required><br><br>
+                <div class="form-group">
+                    <label for="AvgBSWSPP">AvgBSWSPP:</label>
+                    <input type="number" step="any" id="AvgBSWSPP" name="AvgBSWSPP" required><br><br>
+                </div>
 
-        <label for="AvgBSWSPP">AvgBSWSPP:</label>
-        <input type="number" step="any" id="AvgBSWSPP" name="AvgBSWSPP" required><br><br>
+                <div class="form-group">
+                    <label for="VolRedFact">VolRedFact:</label>
+                    <input type="number" step="any" id="VolRedFact" name="VolRedFact" required><br><br>
+                </div>
 
-        <label for="VolRedFact">VolRedFact:</label>
-        <input type="number" step="any" id="VolRedFact" name="VolRedFact" required><br><br>
+                <div class="form-group">
+                    <label for="SPPFlTemp">SPPFlTemp:</label>
+                    <input type="number" step="any" id="SPPFlTemp" name="SPPFlTemp" required><br><br>
+                </div>
 
-        <label for="SPPFlTemp">SPPFlTemp:</label>
-        <input type="number" step="any" id="SPPFlTemp" name="SPPFlTemp" required><br><br>
+                <div class="form-group">
+                    <label for="OilDens">OilDens:</label>
+                    <input type="number" step="any" id="OilDens" name="OilDens" required><br><br>
+                </div>
 
-        <label for="OilDens">OilDens:</label>
-        <input type="number" step="any" id="OilDens" name="OilDens" required><br><br>
+                <div class="form-group">
+                    <label for="OilDelTNT">OilDelTNT:</label>
+                    <input type="number" step="any" id="OilDelTNT" name="OilDelTNT" required><br><br>
+                </div>
 
-        <label for="OilDelTNT">OilDelTNT:</label>
-        <input type="number" step="any" id="OilDelTNT" name="OilDelTNT" required><br><br>
+                <div class="form-group">
+                    <label for="MthOilIPR">MthOilIPR:</label>
+                    <input type="number" step="any" id="MthOilIPR" name="MthOilIPR" required><br><br>
+                </div>
 
-        <label for="MthOilIPR">MthOilIPR:</label>
-        <input type="number" step="any" id="MthOilIPR" name="MthOilIPR" required><br><br>
+                <div class="form-group">
+                    <label for="DailyGasIPR">DailyGasIPR:</label>
+                    <input type="number" step="any" id="DailyGasIPR" name="DailyGasIPR" required><br><br>
+                </div>
 
-        <label for="DailyGasIPR">DailyGasIPR:</label>
-        <input type="number" step="any" id="DailyGasIPR" name="DailyGasIPR" required><br><br>
+                <div class="form-group">
+                    <label for="AvailForLifting">AvailForLifting:</label>
+                    <input type="number" step="any" id="AvailForLifting" name="AvailForLifting" required><br><br>
+                </div>
 
-        <label for="AvailForLifting">AvailForLifting:</label>
-        <input type="number" step="any" id="AvailForLifting" name="AvailForLifting" required><br><br>
+                <div class="form-group">
+                    <label for="LiftedToday">LiftedToday:</label>
+                    <input type="number" step="any" id="LiftedToday" name="LiftedToday" required><br><br>
+                </div>
 
-        <label for="LiftedToday">LiftedToday:</label>
-        <input type="number" step="any" id="LiftedToday" name="LiftedToday" required><br><br>
+                <div class="form-group">
+                    <label for="LiftPort">LiftPort:</label>
+                    <input type="number" step="any" id="LiftPort" name="LiftPort" required><br><br>
+                </div>
 
-        <label for="LiftPort">LiftPort:</label>
-        <input type="number" step="any" id="LiftPort" name="LiftPort" required><br><br>
+                <div class="form-group">
+                    <label for="FlaredGas">FlaredGas:</label>
+                    <input type="number" step="any" id="FlaredGas" name="FlaredGas" required><br><br>
+                </div>
 
-        <label for="FlaredGas">FlaredGas:</label>
-        <input type="number" step="any" id="FlaredGas" name="FlaredGas" required><br><br>
+                <div class="form-group">
+                    <label for="ExportGas">ExportGas:</label>
+                    <input type="number" step="any" id="ExportGas" name="ExportGas" required><br><br>
+                </div>
 
-        <label for="ExportGas">ExportGas:</label>
-        <input type="number" step="any" id="ExportGas" name="ExportGas" required><br><br>
+                <div class="form-group">
+                    <label for="SPPTotGas">SPPTotGas:</label>
+                    <input type="number" step="any" id="SPPTotGas" name="SPPTotGas" required><br><br>
+                </div>
 
-        <label for="SPPTotGas">SPPTotGas:</label>
-        <input type="number" step="any" id="SPPTotGas" name="SPPTotGas" required><br><br>
+                <div class="form-group">
+                    <label for="NewOil">NewOil(Daily MT):</label>
+                    <input type="number" step="any" id="NewOil" name="NewOil" required><br><br>
+                </div>
 
-        <label for="NewOil">NewOil(Daily MT):</label>
-        <input type="number" step="any" id="NewOil" name="NewOil" required><br><br>
+                <div class="form-group">
+                    <label for="AvgVishkaOil">AvgVishkaOil:</label>
+                    <input type="number" step="any" id="AvgVishkaOil" name="AvgVishkaOil" required><br><br>
+                </div>
 
-        <label for="Comments">Comments:</label>
-        <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea><br><br>
+                <div class="form-group">
+                    <label for="VishkaInletPress">VishkaInletPress:</label>
+                    <input type="number" step="any" id="VishkaInletPress" name="VishkaInletPress" required><br><br>
+                </div>
 
-        <label for="AvgVishkaOil">AvgVishkaOil:</label>
-        <input type="number" step="any" id="AvgVishkaOil" name="AvgVishkaOil" required><br><br>
+                <div class="form-group">
+                    <label for="LPWaterInj">LPWaterInj:</label>
+                    <input type="number" step="any" id="LPWaterInj" name="LPWaterInj" required><br><br>
+                </div>
 
-        <label for="VishkaInletPress">VishkaInletPress:</label>
-        <input type="number" step="any" id="VishkaInletPress" name="VishkaInletPress" required><br><br>
+                <div class="form-group">
+                    <label for="HPWaterInj">HPWaterInj:</label>
+                    <input type="number" step="any" id="HPWaterInj" name="HPWaterInj" required><br><br>
+                </div>
 
-        <label for="LPWaterInj">LPWaterInj:</label>
-        <input type="number" step="any" id="LPWaterInj" name="LPWaterInj" required><br><br>
+                <div class="form-group">
+                    <label for="WaterDisposed">WaterDisposed:</label>
+                    <input type="number" step="any" id="WaterDisposed" name="WaterDisposed" required><br><br>
+                </div>
+            </div>
 
-        <label for="HPWaterInj">HPWaterInj:</label>
-        <input type="number" step="any" id="HPWaterInj" name="HPWaterInj" required><br><br>
-
-        <label for="WaterDisposed">WaterDisposed:</label>
-        <input type="number" step="any" id="WaterDisposed" name="WaterDisposed" required><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-    
-    @if (IndexModel.FormDataList.Count > 0)
-    {
-        <h3>Submitted Data</h3>
-        <a href="/Results">View Full Table</a>
-    }
-    
+            <label for="Comments">Comments:</label>
+            <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+        
+        @if (IndexModel.FormDataList.Count > 0)
+        {
+            <h3>Submitted Data</h3>
+            <a href="/Results">View Full Table</a>
+        }
     </body>
 </html>
