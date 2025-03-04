@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\pages\\shared\\models\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\shared\\models\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\pages\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\pages\\results.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\results.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|c:\\users\\rasul\\downloads\\webapplicationmh\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0789F163-3C25-4FE4-BAE0-005435467FBC}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Results.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Results.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Results.cshtml.cs",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Results.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\Results.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:11:20.274Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApplication2\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebApplication2\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-04T07:42:26.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Results.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Results.cshtml",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Results.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\Results.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T06:55:43.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormData.cs",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Shared\\Models\\FormData.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Shared\\Models\\FormData.cs",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Shared\\Models\\FormData.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\Shared\\Models\\FormData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T05:51:28.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:10:58.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:11:15.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:01:02.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebApplication2\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\rasul\\Downloads\\WebApplicationMh\\WebApplication2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebApplication2\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-04T04:34:25.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

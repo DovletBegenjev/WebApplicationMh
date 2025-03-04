@@ -1,35 +1,35 @@
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApplication2.Pages.Shared.Models;
+using System.Threading.Tasks;
+using Production.Data;
 
-namespace WebApplication2.Pages;
-
-public class IndexModel : PageModel
+namespace WebApplication2.Pages
 {
-    [BindProperty]
-    public FormData FormData { get; set; }
-
-    public static List<FormData> FormDataList { get; set; } = new List<FormData>();
-
-    public void OnGet() { }
-
-    public IActionResult OnPost()
+    public class IndexModel : PageModel
     {
-        Console.WriteLine("OnPost method triggered"); // Debug log
+        private readonly ApplicationDbContext _db;
 
-        if (!ModelState.IsValid)
+        [BindProperty]
+        public FormData Form { get; set; }
+
+        public IndexModel(ApplicationDbContext db)
         {
-            var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
-            foreach (var error in errors)
-            {
-                Console.WriteLine(error);
-            }
-            Console.WriteLine("Model state is invalid");
-            return Page();
+            _db = db;
         }
 
-        FormDataList.Add(FormData);
-        Console.WriteLine("Data added successfully");
-        return RedirectToPage("Results");
+        public async Task<IActionResult> OnPostAsync()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            _db.FormDataEntries.Add(Form);
+            await _db.SaveChangesAsync();
+
+            return RedirectToPage("Results"); // Redirect to table page after submitting
+        }
     }
 }

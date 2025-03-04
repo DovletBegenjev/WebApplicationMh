@@ -16,9 +16,6 @@
     <h2>Data Entry Form</h2>
     <form method="post">
 
-        <label for="ID">ID:</label>
-        <input type="text" id="ID" name="ID" required><br><br>
-
         <label for="prod_area_id">prod_area_id:</label>
         <input type="text" id="prod_area_id" name="prod_area_id" required><br><br>
 
@@ -103,11 +100,10 @@
         <input type="submit" value="Submit">
     </form>
     
-    @if (IndexModel.FormDataList.Count > 0)
-    {
+   
         <h3>Submitted Data</h3>
         <a href="/Results">View Full Table</a>
-    }
+    
     
     </body>
 </html>

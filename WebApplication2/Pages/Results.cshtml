@@ -7,144 +7,110 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Data Display</title>
-        <style>
-            /* Add your styles here */
-            table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            th, td {
-                padding: 10px;
-                border: 1px solid #ddd;
-            }
-        </style>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+    </style>
+</head>
+<body>
     <h2>Entered Data</h2>
 
-@if (Model.FormDataList.Count == 0)
-{
-    <p>No data submitted yet.</p>
-}
-else
-{
-    <table border="1">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Prod Area ID</th>
-            <th>Date</th>
-            <th>DayInMonth</th>
-            <th>SPPFluid</th>
-            <th>SPPOil</th>
-            <th>Corr Fact</th>
-            <th>Avg BSW</th>
-            <th>Avg BSW SPP</th>
-            <th>Vol Red Fact</th>
-            <th>SPP Fl Temp</th>
-            <th>Oil Dens</th>
-            <th>Oil Del TNT</th>
-            <th>Mth Oil IPR</th>
-            <th>Daily Gas IPR</th>
-            <th>Avail For Lifting</th>
-            <th>Lifted Today</th>
-            <th>Lift Port</th>
-            <th>Flared Gas</th>
-            <th>Export Gas</th>
-            <th>SPP Tot Gas</th>
-            <th>New Oil (Daily MT)</th>
-            <th>Comments</th>
-            <th>Avg Vishka Oil</th>
-            <th>Vishka Inlet Press</th>
-            <th>LP Water Inj</th>
-            <th>HP Water Inj</th>
-            <th>Water Disposed</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var item in Model.FormDataList)
-        {
-            <tr>
-                <td>@item.ID</td>
-                <td>@item.ProdAreaId</td>
-                <td>@item.Date</td>
-                <td>@item.DayInMonth</td>
-                <td>@item.SPPFluid</td>
-                <td>@item.SPPOil</td>
-                <td>@item.CorrFact</td>
-                <td>@item.AvgBSW</td>
-                <td>@item.AvgBSWSPP</td>
-                <td>@item.VolRedFact</td>
-                <td>@item.SPPFlTemp</td>
-                <td>@item.OilDens</td>
-                <td>@item.OilDelTNT</td>
-                <td>@item.MthOilIPR</td>
-                <td>@item.DailyGasIPR</td>
-                <td>@item.AvailForLifting</td>
-                <td>@item.LiftedToday</td>
-                <td>@item.LiftPort</td>
-                <td>@item.FlaredGas</td>
-                <td>@item.ExportGas</td>
-                <td>@item.SPPTotGas</td>
-                <td>@item.NewOil</td>
-                <td>@item.Comments</td>
-                <td>@item.AvgVishkaOil</td>
-                <td>@item.VishkaInletPress</td>
-                <td>@item.LPWaterInj</td>
-                <td>@item.HPWaterInj</td>
-                <td>@item.WaterDisposed</td>
-            </tr>
-        }
-        </tbody>
-    </table>
-    
-    <!--<div style="overflow-x: auto;">
-        <table border="1" style="border-collapse: collapse; width: 100%;">
+    @if (Model.FormDataList.Count == 0)
+    {
+        <p>No data submitted yet.</p>
+    }
+    else
+    {
+        <table>
             <thead>
                 <tr>
-                    <th>Field</th>
-                    @for (int i = 0; i < Model.FormDataList.Count; i++)
-                    {
-                        <th>Entry @(@i + 1)</th>
-                    }
+                    <th>ID</th>
+                    <th>Prod Area ID</th>
+                    <th>Date</th>
+                    <th>DayInMonth</th>
+                    <th>SPPFluid</th>
+                    <th>SPPOil</th>
+                    <th>Corr Fact</th>
+                    <th>Avg BSW</th>
+                    <th>Avg BSW SPP</th>
+                    <th>Vol Red Fact</th>
+                    <th>SPP Fl Temp</th>
+                    <th>Oil Dens</th>
+                    <th>Oil Del TNT</th>
+                    <th>Mth Oil IPR</th>
+                    <th>Daily Gas IPR</th>
+                    <th>Avail For Lifting</th>
+                    <th>Lifted Today</th>
+                    <th>Lift Port</th>
+                    <th>Flared Gas</th>
+                    <th>Export Gas</th>
+                    <th>SPP Tot Gas</th>
+                    <th>New Oil (Daily MT)</th>
+                    <th>Comments</th>
+                    <th>Avg Vishka Oil</th>
+                    <th>Vishka Inlet Press</th>
+                    <th>LP Water Inj</th>
+                    <th>HP Water Inj</th>
+                    <th>Water Disposed</th>
                 </tr>
             </thead>
             <tbody>
-                <tr><td><b>ID</b></td>@foreach (var item in Model.FormDataList) { <td>@item.ID</td> }</tr>
-                <tr><td><b>Prod Area ID</b></td>@foreach (var item in Model.FormDataList) { <td>@item.ProdAreaId</td> }</tr>
-                <tr><td><b>Date</b></td>@foreach (var item in Model.FormDataList) { <td>@item.Date.ToString("yyyy-MM-dd")</td> }</tr>
-                <tr><td><b>Day In Month</b></td>@foreach (var item in Model.FormDataList) { <td>@item.DayInMonth</td> }</tr>
-                <tr><td><b>SPP Fluid</b></td>@foreach (var item in Model.FormDataList) { <td>@item.SPPFluid</td> }</tr>
-                <tr><td><b>SPP Oil (MT/d)</b></td>@foreach (var item in Model.FormDataList) { <td>@item.SPPOil</td> }</tr>
-                <tr><td><b>Corr Fact</b></td>@foreach (var item in Model.FormDataList) { <td>@item.CorrFact</td> }</tr>
-                <tr><td><b>Avg BSW</b></td>@foreach (var item in Model.FormDataList) { <td>@item.AvgBSW</td> }</tr>
-                <tr><td><b>Avg BSW SPP</b></td>@foreach (var item in Model.FormDataList) { <td>@item.AvgBSWSPP</td> }</tr>
-                <tr><td><b>Vol Red Fact</b></td>@foreach (var item in Model.FormDataList) { <td>@item.VolRedFact</td> }</tr>
-                <tr><td><b>SPP Fl Temp</b></td>@foreach (var item in Model.FormDataList) { <td>@item.SPPFlTemp</td> }</tr>
-                <tr><td><b>Oil Dens</b></td>@foreach (var item in Model.FormDataList) { <td>@item.OilDens</td> }</tr>
-                <tr><td><b>Oil Del TNT</b></td>@foreach (var item in Model.FormDataList) { <td>@item.OilDelTNT</td> }</tr>
-                <tr><td><b>Mth Oil IPR</b></td>@foreach (var item in Model.FormDataList) { <td>@item.MthOilIPR</td> }</tr>
-                <tr><td><b>Daily Gas IPR</b></td>@foreach (var item in Model.FormDataList) { <td>@item.DailyGasIPR</td> }</tr>
-                <tr><td><b>Avail For Lifting</b></td>@foreach (var item in Model.FormDataList) { <td>@item.AvailForLifting</td> }</tr>
-                <tr><td><b>Lifted Today</b></td>@foreach (var item in Model.FormDataList) { <td>@item.LiftedToday</td> }</tr>
-                <tr><td><b>Lift Port</b></td>@foreach (var item in Model.FormDataList) { <td>@item.LiftPort</td> }</tr>
-                <tr><td><b>Flared Gas</b></td>@foreach (var item in Model.FormDataList) { <td>@item.FlaredGas</td> }</tr>
-                <tr><td><b>Export Gas</b></td>@foreach (var item in Model.FormDataList) { <td>@item.ExportGas</td> }</tr>
-                <tr><td><b>SPP Tot Gas</b></td>@foreach (var item in Model.FormDataList) { <td>@item.SPPTotGas</td> }</tr>
-                <tr><td><b>New Oil (Daily MT)</b></td>@foreach (var item in Model.FormDataList) { <td>@item.NewOil</td> }</tr>
-                <tr><td><b>Comments</b></td>@foreach (var item in Model.FormDataList) { <td>@item.Comments</td> }</tr>
-                <tr><td><b>Avg Vishka Oil</b></td>@foreach (var item in Model.FormDataList) { <td>@item.AvgVishkaOil</td> }</tr>
-                <tr><td><b>Vishka Inlet Press</b></td>@foreach (var item in Model.FormDataList) { <td>@item.VishkaInletPress</td> }</tr>
-                <tr><td><b>LP Water Inj</b></td>@foreach (var item in Model.FormDataList) { <td>@item.LPWaterInj</td> }</tr>
-                <tr><td><b>HP Water Inj</b></td>@foreach (var item in Model.FormDataList) { <td>@item.HPWaterInj</td> }</tr>
-                <tr><td><b>Water Disposed</b></td>@foreach (var item in Model.FormDataList) { <td>@item.WaterDisposed</td> }</tr>
+                @foreach (var item in Model.FormDataList)
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.prod_area_id</td>
+                        <td>@item.Date.ToString("yyyy-MM-dd") ?? "N/A"</td>
+                        <td>@item.DayInMonth</td>
+                        <td>@item.SPPFluid</td>
+                        <td>@item.SPPOil</td>
+                        <td>@item.CorrFact</td>
+                        <td>@item.AvgBSW</td>
+                        <td>@item.AvgBSWSPP</td>
+                        <td>@item.VolRedFact</td>
+                        <td>@item.SPPFlTemp</td>
+                        <td>@item.OilDens</td>
+                        <td>@item.OilDelTNT</td>
+                        <td>@item.MthOilIPR</td>
+                        <td>@item.DailyGasIPR</td>
+                        <td>@item.AvailForLifting</td>
+                        <td>@item.LiftedToday</td>
+                        <td>@item.LiftPort</td>
+                        <td>@item.FlaredGas</td>
+                        <td>@item.ExportGas</td>
+                        <td>@item.SPPTotGas</td>
+                        <td>@item.NewOil</td>
+                        <td>@item.Comments</td>
+                        <td>@item.AvgVishkaOil</td>
+                        <td>@item.VishkaInletPress</td>
+                        <td>@item.LPWaterInj</td>
+                        <td>@item.HPWaterInj</td>
+                        <td>@item.WaterDisposed</td>
+                    </tr>
+                }
             </tbody>
         </table>
-    </div>-->
-}
+    }
 </body>
 </html>
