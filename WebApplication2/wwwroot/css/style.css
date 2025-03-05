@@ -25,6 +25,7 @@ body {
 h2 {
     text-align: center;
     color: #333;
+    padding-bottom: 30px;
 }
 
 label {
@@ -37,7 +38,8 @@ label {
 input[type="text"],
 input[type="number"],
 input[type="date"],
-textarea {
+textarea,
+select {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
@@ -51,7 +53,7 @@ input[type="number"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #2552c4;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -129,3 +131,4 @@ input, textarea {
         grid-template-columns: 1fr; /* Switch to single-column layout on small screens */
     }
 }
+
